@@ -1,0 +1,139 @@
+.content-area {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-left: 155px;
+  padding-bottom: 56px;
+}
+
+.main-content {
+  background-image: url('/assets/mountains.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.floating-pill {
+  position: absolute;
+  left: 1%;
+  top: 3%;
+  width: 75px;
+  height: calc(86vh - 56px);
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37), inset 0 0 15px rgba(135, 135, 135, .1), 0 0 18px 3px rgba(0, 0, 0, .3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+  padding-top: 4vmin;
+  padding-bottom: 4vmin;
+}
+
+.icon-size {
+  font-size: 25px;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 8.8vmin;
+  font-family: 'Georgia', Times, serif;
+  font-weight: 700;
+  color: #000000;
+  margin: 32px 48px 32px 0;
+  letter-spacing: -2px;
+
+  span {
+    font-size: 3.5vmin;
+    letter-spacing: normal;
+    font-family: 'Segoe UI', Times, serif;
+    font-weight: 300;
+    color: #000000;
+    margin-right: 26vmin;
+  }
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  color: #ffffff;
+  text-align: left;
+  padding: 16px 0;
+  font-size: 2.2vmin;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+hr {
+  border-top: 2px solid #fff;
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-bottom: 72px;
+  }
+
+  .content-area {
+    padding: 16px 8px 72px 8px;
+    min-height: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 25vmin;
+  }
+
+  .greeting {
+    font-size: 8vmin;
+    margin: 16px 0 16px 0;
+    text-align: left;
+
+    span {
+      margin-right: unset;
+      margin-left: 20vmin;
+    }
+
+  }
+
+  .floating-pill {
+    height: 6vmin;
+    border-radius: 24px;
+    z-index: 10;
+    flex-direction: row;
+    width: 95%;
+    left: 2%;
+  }
+
+  .footer {
+    font-size: 15px;
+    padding: 12px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

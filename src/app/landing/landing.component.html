@@ -1,0 +1,19 @@
+<div class="main-content" aria-label="An image of a mountain range covered in green forest">
+  <!-- <img src="assets/mountains.jpg" alt="An image of a mountain range covered in green forest"> -->
+  <div class="floating-pill" matTooltip="Demo Icons" matTooltipPosition="right">
+    <mat-icon class="icon-size">home</mat-icon>
+    <mat-icon class="icon-size">search</mat-icon>
+    <mat-icon class="icon-size">reorder</mat-icon>
+    <mat-icon class="icon-size">settings</mat-icon>
+    <mat-icon class="icon-size">insert_chart</mat-icon>
+    <mat-icon class="icon-size">dns</mat-icon>
+  </div>
+  <section class="content-area">
+    <div class="greeting">Hello, {{name}} <span *ngIf="selectedDateFlag" class="meeting-info">Meeting Scheduled for {{showDate}}</span></div>
+    <hr>
+    <app-card-content [name]="name" (dateSelected)="dateSelected($event)"></app-card-content>
+  </section>
+</div>
+<footer class="footer">
+  © 2025 Room Kiosk. All rights reserved.
+</footer>
