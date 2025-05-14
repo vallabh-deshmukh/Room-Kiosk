@@ -6,7 +6,7 @@
 
 # Room Kiosk for Mobile
 
-![Room-Kiosk-Mobile](https://github.com/user-attachments/assets/2401fcbb-1a88-4d5b-808e-06157f09d867)
+![Room-Kiosk-Mobile](https://github.com/user-attachments/assets/95b8433a-39fb-4410-aa46-5ad6d8343bcf)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
