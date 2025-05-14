@@ -4,7 +4,7 @@
 
 ![Rook-Kiosk-Desktop](https://github.com/user-attachments/assets/24d06dad-e022-43a4-a934-3c1a6fab9d6d)
 
-# Room Kios for Mobile
+# Room Kiosk for Mobile
 
 ![Room-Kiosk-Mobile](https://github.com/user-attachments/assets/2401fcbb-1a88-4d5b-808e-06157f09d867)
 
