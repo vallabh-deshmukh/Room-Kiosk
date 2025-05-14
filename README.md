@@ -1,5 +1,14 @@
 # LandingPage
 
+# Room Kiosk for Desktop
+
+![Rook-Kiosk-Desktop](https://github.com/user-attachments/assets/24d06dad-e022-43a4-a934-3c1a6fab9d6d)
+
+# Room Kios for Mobile
+
+![Room-Kiosk-Mobile](https://github.com/user-attachments/assets/2401fcbb-1a88-4d5b-808e-06157f09d867)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 
 ## Development server
